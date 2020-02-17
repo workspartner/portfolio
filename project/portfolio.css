@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+header img{
+    height: 80px;
+}
+header p{
+    font-size: 80px;
+    margin:5px 0;
+    margin-left: 10px;
+    line-height: 100%;
+}
+.head{
+    height: 80px;
+    background-color: red;
+    width: 100%;
+}
+.elements{
+    display: flex;
+    height: 100%;
+    margin-left: 273px;
+    margin-top: 0;
+    list-style: none;
+}
+.head li{
+    font-size: 30px;
+    padding: 16px 15px 10px 15px;
+    background-color: aqua;
+    /* border-color: turquoise; 
+    border-width: 5px;
+    border-style: ridge; */
+}
+.head-text{
+    text-align: left;
+    background-image:url(./image/convert.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.divoce{
+    height: 100%;
+    background: rgba(255,255,255,0.5)
+}
+.text{
+    margin-top: 100px;
+    line-height: 1.5;
+    background-color: yellow;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text p{
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+/* 主に『一冊で身につく、、』のP98~103を参照 */
+/* 権限の強さはcss>jQuery */
+.contact-btn{
+    margin: 30px;
+    color: royalblue;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: dashed 4px white;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(118, 196, 46);
+    overflow: hidden;
+    transition: ease;
+}
+.contact-btn:hover{
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    color: burlywood;
+}

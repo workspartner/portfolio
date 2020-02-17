@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 1000px;
+}
+
+footer {
+    height: 1000px;
+}
+
+.title {
+    padding-bottom: 5vh;
+}
+
+.title p {
+    font-size: 4vw;
+    padding-left: 6vw;
+    border-bottom: 0.5vh solid black;
+}
+
+.team-intro {
+    display: flex;
+    padding-bottom: 5vh;
+}
+
+.team-icon {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-icon img {
+    width: 15vw;
+}
+
+.team-text {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personal-intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person {
+    width: 50%;
+    display: flex;
+    padding-bottom: 5vh;
+}
+
+.personal-icon {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.personal-intro img {
+    width: 15vw;
+}
+
+.personal-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

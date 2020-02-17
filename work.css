@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.works h1{
+    border-bottom: 2px solid black;
+}
+
+.work-product{
+    height: 100px;
+}
+
+.more-product{
+    text-align: right;  
+    margin-bottom: 10px;
+}
+
+.more-product a{
+    font-size: 12px;
+}
+
+.fotter{
+    background-color: #e7e7e7;
+    height: 200px;
+}
+
+.fotter-container{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.fotter-btn{
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.fotter-btn a{
+    padding:0 20px;
+}
+.fa-twitter{
+    color: #55acee;
+}
